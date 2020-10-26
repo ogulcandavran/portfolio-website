@@ -478,7 +478,7 @@ section {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: hsla(0, 0%, 3%, 0.1);
+    background-color: hsla(0, 0%, 3%, 0);
     top: 0;
     left: 0;
     z-index: 100;
@@ -778,6 +778,11 @@ h2 {
       width: 32px;
       height: 32px;
       cursor: pointer;
+      transition: all 0.4s ease;
+    }
+
+    div:hover{
+      transform: scale(1.1);
     }
 
     a:not(:last-child), div:not(:last-child) {
