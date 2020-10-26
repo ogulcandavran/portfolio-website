@@ -73,6 +73,10 @@
   --titles-margin-top: 3rem;
 }
 
+body{
+  background-color: #080808;
+}
+
 html {
   font-size: 62.5%;
   @include responsive(laptop) {
@@ -148,6 +152,9 @@ section {
   }
   li:not(:first-child) {
     padding-left: 3rem;
+    @include responsive(phone-small){
+      padding-left: 1rem;
+    }
   }
 
   li:hover {
@@ -167,7 +174,7 @@ section {
 }
 .home {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background-image: url("./assets/images/mainimg.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -189,7 +196,7 @@ section {
   &__main {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
     justify-content: center;
     &__main-text {
       display: flex;
@@ -411,9 +418,7 @@ section {
 }
 
 .next-section-button {
-  position: absolute;
-  left: 0;
-  bottom: 3rem;
+  margin: 3rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -428,23 +433,24 @@ section {
 
 .skills {
   background-color: #080808;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   overflow: hidden;
   position: relative;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   @include responsive(phone-big) {
     min-height: 100vh;
     height: auto;
   }
   &__container {
     width: 100%;
-    height: 100vh;
     position: relative;
     z-index: 3;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     overflow: hidden;
   }
 
@@ -473,9 +479,6 @@ section {
 
   &__content {
     z-index: 150;
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -492,6 +495,9 @@ section {
       grid-template-columns: 1fr 1fr;
       grid-gap: 8rem 0;
       margin-top: 8rem;
+      @include responsive(laptop) {
+        margin-top: 6rem;
+      }
 
       &--each-pair {
         display: flex;
@@ -557,7 +563,7 @@ h2 {
   }
   &__container {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
     z-index: 3;
     display: flex;
@@ -571,7 +577,7 @@ h2 {
     grid-gap: 2rem 10rem;
     overflow: hidden;
     padding: 2px;
-    margin-bottom: 15rem;
+    margin-bottom: 10rem;
     @include responsive(flexible) {
       grid-gap: 2rem 6rem;
     }
