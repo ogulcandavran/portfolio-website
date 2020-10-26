@@ -64,7 +64,7 @@
 
     var stack = Composites.stack(250, 50, 6, 3, 0, 0, function (x, y) {
       return Bodies.rectangle(x, y, 50, 50, {
-        render: { fillStyle: "#080808", strokeStyle: "#66fcf1", lineWidth: 1 },
+        render: { fillStyle: "#080808", strokeStyle: "#66fcf1", lineWidth: 5 },
       });
     });
 

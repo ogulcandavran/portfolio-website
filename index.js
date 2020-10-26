@@ -1,6 +1,7 @@
 const glitchTarget = document.querySelector("#glitch-target");
 const ctaContainer = document.querySelector(".home__main__cta-container__cta");
 const navElement = document.querySelector(".nav__element");
+const loading = document.querySelector("#loading");
 
 ctaContainer.addEventListener("mouseover", () =>
   glitchTarget.classList.add("glitch")
@@ -9,9 +10,17 @@ ctaContainer.addEventListener("mouseleave", () =>
   glitchTarget.classList.remove("glitch")
 );
 
+window.addEventListener("load", () => {
+  document.body.style.height = 'auto';
+  document.body.style.overflow = 'auto'
+  loading.classList.add("hidden");
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+});
+
 (function game() {
   const canvas2 = document.querySelector("#matterjs");
-  
+
   var Example = Example || {};
   Example.bridge = function () {
     var Engine = Matter.Engine,
@@ -71,7 +80,7 @@ ctaContainer.addEventListener("mouseleave", () =>
 
     var stack = Composites.stack(250, 50, 6, 3, 0, 0, function (x, y) {
       return Bodies.rectangle(x, y, 40, 40, {
-        render: { fillStyle: "#080808", strokeStyle: "#66fcf1", lineWidth: 2 },
+        render: { fillStyle: "#080808", strokeStyle: "#66fcf1", lineWidth: 5 },
       });
     });
 
@@ -356,4 +365,3 @@ function fusion() {
 }
 
 fusion();
-
