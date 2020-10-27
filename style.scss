@@ -210,8 +210,9 @@ section {
     background-image: url("./assets/images/mainimg2.png");
   }
   @include responsive(phone-big) {
-    min-height: 100vh;
+    min-height: 80vh;
     height: auto;
+    justify-content: space-around;
   }
   &__main {
     display: flex;
@@ -410,6 +411,9 @@ section {
   justify-content: center;
   align-items: center;
   margin-bottom: 3rem;
+  @include responsive(phone-big){
+    display: none;
+  }
 }
 
 .next-section:hover {
@@ -449,6 +453,9 @@ section {
   justify-content: center;
   align-items: center;
   width: 100%;
+  @include responsive(phone-big){
+    display: none;
+  }
 }
 
 .next-section-button:hover {
@@ -467,7 +474,7 @@ section {
   flex-direction: column;
   justify-content: space-between;
   @include responsive(phone-big) {
-    min-height: 100vh;
+    min-height: 60vh;
     height: auto;
   }
   &__container {
@@ -523,6 +530,10 @@ section {
       margin-top: 8rem;
       @include responsive(laptop) {
         margin-top: 6rem;
+      }
+
+      @include responsive(phone-big) {
+        grid-gap: 3rem;
       }
 
       &--each-pair {
@@ -638,7 +649,7 @@ h2 {
       max-width: 40rem;
       min-width: 30rem;
       @include responsive(phone-small) {
-        min-width: 270px;
+        min-width: 250px;
       }
 
       img {
