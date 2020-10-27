@@ -215,7 +215,7 @@ section {
     background-image: url("./assets/images/mainimg2.png");
   }
   @include responsive(phone-big) {
-    min-height: 80vh;
+    min-height: 100vh;
     height: auto;
     justify-content: space-around;
   }
