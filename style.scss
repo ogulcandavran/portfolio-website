@@ -530,7 +530,7 @@ section {
       font-family: var(--nunito);
       font-weight: 500;
       color: var(--white);
-      letter-spacing: 0.5rem;
+      letter-spacing: 0.3rem;
       width: 100%;
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -541,7 +541,8 @@ section {
       }
 
       @include responsive(phone-big) {
-        grid-gap: 4rem;
+        grid-gap: 6rem 0;
+        font-size: 1.2rem;
       }
 
       &--each-pair {
