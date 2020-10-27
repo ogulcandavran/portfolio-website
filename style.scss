@@ -162,7 +162,7 @@ section {
     font-weight: 200;
     transition: 0.4s ease;
     @include responsive(phone-small) {
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
 
     a {
@@ -525,6 +525,10 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @include responsive(phone-big) {
+      padding-bottom: 5rem;
+    }
+
     &__skills-list {
       font-size: 1.6rem;
       font-family: var(--nunito);
