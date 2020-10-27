@@ -176,9 +176,10 @@ section {
   padding-left: 3rem;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 600px) {
   .nav li:not(:first-child) {
     padding-left: 1rem;
+    letter-spacing: 0.5px;
   }
 }
 
@@ -312,7 +313,7 @@ section {
 
 @media (max-width: 600px) {
   .home__main__cta-container__cta {
-    width: 30rem;
+    width: 26rem;
     height: 6.5rem;
   }
 }
@@ -325,7 +326,8 @@ section {
 
 @media (max-width: 600px) {
   .home__main__cta-container__cta__svg-container {
-    margin-left: 4rem;
+    margin-left: 2rem;
+    width: 3rem;
   }
 }
 
@@ -337,6 +339,12 @@ section {
 .home__main__cta-container__cta p {
   margin-left: 5.5rem;
   letter-spacing: 0.35rem;
+}
+
+@media (max-width: 600px) {
+  .home__main__cta-container__cta p {
+    margin-left: 2.5rem;
+  }
 }
 
 .home__main__cta-container__cta .glitch {
@@ -370,527 +378,527 @@ section {
 
 @-webkit-keyframes glitch-anim {
   0% {
-    clip: rect(2px, 9999px, 21px, 0);
-    -webkit-transform: skew(0.79deg);
-            transform: skew(0.79deg);
+    clip: rect(34px, 9999px, 6px, 0);
+    -webkit-transform: skew(0.62deg);
+            transform: skew(0.62deg);
   }
   5% {
-    clip: rect(58px, 9999px, 77px, 0);
+    clip: rect(68px, 9999px, 72px, 0);
+    -webkit-transform: skew(0.85deg);
+            transform: skew(0.85deg);
+  }
+  10% {
+    clip: rect(67px, 9999px, 88px, 0);
+    -webkit-transform: skew(0.6deg);
+            transform: skew(0.6deg);
+  }
+  15% {
+    clip: rect(39px, 9999px, 8px, 0);
+    -webkit-transform: skew(0.42deg);
+            transform: skew(0.42deg);
+  }
+  20% {
+    clip: rect(42px, 9999px, 97px, 0);
+    -webkit-transform: skew(0.81deg);
+            transform: skew(0.81deg);
+  }
+  25% {
+    clip: rect(44px, 9999px, 60px, 0);
     -webkit-transform: skew(0.13deg);
             transform: skew(0.13deg);
   }
-  10% {
-    clip: rect(59px, 9999px, 95px, 0);
-    -webkit-transform: skew(0.83deg);
-            transform: skew(0.83deg);
-  }
-  15% {
-    clip: rect(73px, 9999px, 9px, 0);
-    -webkit-transform: skew(0.08deg);
-            transform: skew(0.08deg);
-  }
-  20% {
-    clip: rect(66px, 9999px, 12px, 0);
-    -webkit-transform: skew(0.14deg);
-            transform: skew(0.14deg);
-  }
-  25% {
-    clip: rect(22px, 9999px, 52px, 0);
-    -webkit-transform: skew(0.89deg);
-            transform: skew(0.89deg);
-  }
   30% {
-    clip: rect(80px, 9999px, 89px, 0);
-    -webkit-transform: skew(0.41deg);
-            transform: skew(0.41deg);
+    clip: rect(88px, 9999px, 35px, 0);
+    -webkit-transform: skew(0.17deg);
+            transform: skew(0.17deg);
   }
   35% {
-    clip: rect(14px, 9999px, 9px, 0);
-    -webkit-transform: skew(0.58deg);
-            transform: skew(0.58deg);
+    clip: rect(33px, 9999px, 89px, 0);
+    -webkit-transform: skew(0.61deg);
+            transform: skew(0.61deg);
   }
   40% {
-    clip: rect(75px, 9999px, 30px, 0);
-    -webkit-transform: skew(0.92deg);
-            transform: skew(0.92deg);
-  }
-  45% {
-    clip: rect(10px, 9999px, 7px, 0);
-    -webkit-transform: skew(0.79deg);
-            transform: skew(0.79deg);
-  }
-  50% {
-    clip: rect(91px, 9999px, 75px, 0);
-    -webkit-transform: skew(0.35deg);
-            transform: skew(0.35deg);
-  }
-  55% {
-    clip: rect(3px, 9999px, 35px, 0);
-    -webkit-transform: skew(0.48deg);
-            transform: skew(0.48deg);
-  }
-  60% {
-    clip: rect(60px, 9999px, 54px, 0);
-    -webkit-transform: skew(0.94deg);
-            transform: skew(0.94deg);
-  }
-  65% {
-    clip: rect(24px, 9999px, 45px, 0);
+    clip: rect(59px, 9999px, 55px, 0);
     -webkit-transform: skew(0.73deg);
             transform: skew(0.73deg);
   }
-  70% {
-    clip: rect(21px, 9999px, 46px, 0);
-    -webkit-transform: skew(0.72deg);
-            transform: skew(0.72deg);
+  45% {
+    clip: rect(99px, 9999px, 63px, 0);
+    -webkit-transform: skew(0.42deg);
+            transform: skew(0.42deg);
   }
-  75% {
-    clip: rect(84px, 9999px, 77px, 0);
+  50% {
+    clip: rect(62px, 9999px, 96px, 0);
+    -webkit-transform: skew(0.33deg);
+            transform: skew(0.33deg);
+  }
+  55% {
+    clip: rect(54px, 9999px, 90px, 0);
+    -webkit-transform: skew(0.85deg);
+            transform: skew(0.85deg);
+  }
+  60% {
+    clip: rect(68px, 9999px, 74px, 0);
+    -webkit-transform: skew(0.9deg);
+            transform: skew(0.9deg);
+  }
+  65% {
+    clip: rect(51px, 9999px, 85px, 0);
+    -webkit-transform: skew(0.23deg);
+            transform: skew(0.23deg);
+  }
+  70% {
+    clip: rect(9px, 9999px, 84px, 0);
     -webkit-transform: skew(0.31deg);
             transform: skew(0.31deg);
   }
+  75% {
+    clip: rect(10px, 9999px, 99px, 0);
+    -webkit-transform: skew(0.94deg);
+            transform: skew(0.94deg);
+  }
   80% {
-    clip: rect(55px, 9999px, 40px, 0);
-    -webkit-transform: skew(0.7deg);
-            transform: skew(0.7deg);
+    clip: rect(74px, 9999px, 77px, 0);
+    -webkit-transform: skew(0.87deg);
+            transform: skew(0.87deg);
   }
   85% {
-    clip: rect(54px, 9999px, 50px, 0);
-    -webkit-transform: skew(0.25deg);
-            transform: skew(0.25deg);
-  }
-  90% {
-    clip: rect(55px, 9999px, 31px, 0);
-    -webkit-transform: skew(0.32deg);
-            transform: skew(0.32deg);
-  }
-  95% {
-    clip: rect(70px, 9999px, 3px, 0);
-    -webkit-transform: skew(0.26deg);
-            transform: skew(0.26deg);
-  }
-  100% {
-    clip: rect(5px, 9999px, 74px, 0);
+    clip: rect(85px, 9999px, 27px, 0);
     -webkit-transform: skew(0.99deg);
             transform: skew(0.99deg);
+  }
+  90% {
+    clip: rect(39px, 9999px, 22px, 0);
+    -webkit-transform: skew(0.41deg);
+            transform: skew(0.41deg);
+  }
+  95% {
+    clip: rect(8px, 9999px, 66px, 0);
+    -webkit-transform: skew(0.38deg);
+            transform: skew(0.38deg);
+  }
+  100% {
+    clip: rect(18px, 9999px, 23px, 0);
+    -webkit-transform: skew(0.74deg);
+            transform: skew(0.74deg);
   }
 }
 
 @keyframes glitch-anim {
   0% {
-    clip: rect(2px, 9999px, 21px, 0);
-    -webkit-transform: skew(0.79deg);
-            transform: skew(0.79deg);
+    clip: rect(34px, 9999px, 6px, 0);
+    -webkit-transform: skew(0.62deg);
+            transform: skew(0.62deg);
   }
   5% {
-    clip: rect(58px, 9999px, 77px, 0);
+    clip: rect(68px, 9999px, 72px, 0);
+    -webkit-transform: skew(0.85deg);
+            transform: skew(0.85deg);
+  }
+  10% {
+    clip: rect(67px, 9999px, 88px, 0);
+    -webkit-transform: skew(0.6deg);
+            transform: skew(0.6deg);
+  }
+  15% {
+    clip: rect(39px, 9999px, 8px, 0);
+    -webkit-transform: skew(0.42deg);
+            transform: skew(0.42deg);
+  }
+  20% {
+    clip: rect(42px, 9999px, 97px, 0);
+    -webkit-transform: skew(0.81deg);
+            transform: skew(0.81deg);
+  }
+  25% {
+    clip: rect(44px, 9999px, 60px, 0);
     -webkit-transform: skew(0.13deg);
             transform: skew(0.13deg);
   }
-  10% {
-    clip: rect(59px, 9999px, 95px, 0);
-    -webkit-transform: skew(0.83deg);
-            transform: skew(0.83deg);
-  }
-  15% {
-    clip: rect(73px, 9999px, 9px, 0);
-    -webkit-transform: skew(0.08deg);
-            transform: skew(0.08deg);
-  }
-  20% {
-    clip: rect(66px, 9999px, 12px, 0);
-    -webkit-transform: skew(0.14deg);
-            transform: skew(0.14deg);
-  }
-  25% {
-    clip: rect(22px, 9999px, 52px, 0);
-    -webkit-transform: skew(0.89deg);
-            transform: skew(0.89deg);
-  }
   30% {
-    clip: rect(80px, 9999px, 89px, 0);
-    -webkit-transform: skew(0.41deg);
-            transform: skew(0.41deg);
+    clip: rect(88px, 9999px, 35px, 0);
+    -webkit-transform: skew(0.17deg);
+            transform: skew(0.17deg);
   }
   35% {
-    clip: rect(14px, 9999px, 9px, 0);
-    -webkit-transform: skew(0.58deg);
-            transform: skew(0.58deg);
+    clip: rect(33px, 9999px, 89px, 0);
+    -webkit-transform: skew(0.61deg);
+            transform: skew(0.61deg);
   }
   40% {
-    clip: rect(75px, 9999px, 30px, 0);
-    -webkit-transform: skew(0.92deg);
-            transform: skew(0.92deg);
-  }
-  45% {
-    clip: rect(10px, 9999px, 7px, 0);
-    -webkit-transform: skew(0.79deg);
-            transform: skew(0.79deg);
-  }
-  50% {
-    clip: rect(91px, 9999px, 75px, 0);
-    -webkit-transform: skew(0.35deg);
-            transform: skew(0.35deg);
-  }
-  55% {
-    clip: rect(3px, 9999px, 35px, 0);
-    -webkit-transform: skew(0.48deg);
-            transform: skew(0.48deg);
-  }
-  60% {
-    clip: rect(60px, 9999px, 54px, 0);
-    -webkit-transform: skew(0.94deg);
-            transform: skew(0.94deg);
-  }
-  65% {
-    clip: rect(24px, 9999px, 45px, 0);
+    clip: rect(59px, 9999px, 55px, 0);
     -webkit-transform: skew(0.73deg);
             transform: skew(0.73deg);
   }
-  70% {
-    clip: rect(21px, 9999px, 46px, 0);
-    -webkit-transform: skew(0.72deg);
-            transform: skew(0.72deg);
+  45% {
+    clip: rect(99px, 9999px, 63px, 0);
+    -webkit-transform: skew(0.42deg);
+            transform: skew(0.42deg);
   }
-  75% {
-    clip: rect(84px, 9999px, 77px, 0);
+  50% {
+    clip: rect(62px, 9999px, 96px, 0);
+    -webkit-transform: skew(0.33deg);
+            transform: skew(0.33deg);
+  }
+  55% {
+    clip: rect(54px, 9999px, 90px, 0);
+    -webkit-transform: skew(0.85deg);
+            transform: skew(0.85deg);
+  }
+  60% {
+    clip: rect(68px, 9999px, 74px, 0);
+    -webkit-transform: skew(0.9deg);
+            transform: skew(0.9deg);
+  }
+  65% {
+    clip: rect(51px, 9999px, 85px, 0);
+    -webkit-transform: skew(0.23deg);
+            transform: skew(0.23deg);
+  }
+  70% {
+    clip: rect(9px, 9999px, 84px, 0);
     -webkit-transform: skew(0.31deg);
             transform: skew(0.31deg);
   }
+  75% {
+    clip: rect(10px, 9999px, 99px, 0);
+    -webkit-transform: skew(0.94deg);
+            transform: skew(0.94deg);
+  }
   80% {
-    clip: rect(55px, 9999px, 40px, 0);
-    -webkit-transform: skew(0.7deg);
-            transform: skew(0.7deg);
+    clip: rect(74px, 9999px, 77px, 0);
+    -webkit-transform: skew(0.87deg);
+            transform: skew(0.87deg);
   }
   85% {
-    clip: rect(54px, 9999px, 50px, 0);
-    -webkit-transform: skew(0.25deg);
-            transform: skew(0.25deg);
-  }
-  90% {
-    clip: rect(55px, 9999px, 31px, 0);
-    -webkit-transform: skew(0.32deg);
-            transform: skew(0.32deg);
-  }
-  95% {
-    clip: rect(70px, 9999px, 3px, 0);
-    -webkit-transform: skew(0.26deg);
-            transform: skew(0.26deg);
-  }
-  100% {
-    clip: rect(5px, 9999px, 74px, 0);
+    clip: rect(85px, 9999px, 27px, 0);
     -webkit-transform: skew(0.99deg);
             transform: skew(0.99deg);
+  }
+  90% {
+    clip: rect(39px, 9999px, 22px, 0);
+    -webkit-transform: skew(0.41deg);
+            transform: skew(0.41deg);
+  }
+  95% {
+    clip: rect(8px, 9999px, 66px, 0);
+    -webkit-transform: skew(0.38deg);
+            transform: skew(0.38deg);
+  }
+  100% {
+    clip: rect(18px, 9999px, 23px, 0);
+    -webkit-transform: skew(0.74deg);
+            transform: skew(0.74deg);
   }
 }
 
 @-webkit-keyframes glitch-anim2 {
   0% {
-    clip: rect(38px, 9999px, 99px, 0);
-    -webkit-transform: skew(0.91deg);
-            transform: skew(0.91deg);
+    clip: rect(38px, 9999px, 53px, 0);
+    -webkit-transform: skew(0.57deg);
+            transform: skew(0.57deg);
   }
   5% {
-    clip: rect(51px, 9999px, 22px, 0);
-    -webkit-transform: skew(0.95deg);
-            transform: skew(0.95deg);
+    clip: rect(34px, 9999px, 51px, 0);
+    -webkit-transform: skew(0.55deg);
+            transform: skew(0.55deg);
   }
   10% {
-    clip: rect(94px, 9999px, 20px, 0);
+    clip: rect(34px, 9999px, 13px, 0);
+    -webkit-transform: skew(0.63deg);
+            transform: skew(0.63deg);
+  }
+  15% {
+    clip: rect(74px, 9999px, 28px, 0);
+    -webkit-transform: skew(0.58deg);
+            transform: skew(0.58deg);
+  }
+  20% {
+    clip: rect(98px, 9999px, 37px, 0);
     -webkit-transform: skew(0.76deg);
             transform: skew(0.76deg);
   }
-  15% {
-    clip: rect(94px, 9999px, 96px, 0);
-    -webkit-transform: skew(0.8deg);
-            transform: skew(0.8deg);
-  }
-  20% {
-    clip: rect(72px, 9999px, 92px, 0);
-    -webkit-transform: skew(0.66deg);
-            transform: skew(0.66deg);
-  }
   25% {
-    clip: rect(52px, 9999px, 42px, 0);
-    -webkit-transform: skew(0.79deg);
-            transform: skew(0.79deg);
-  }
-  30% {
-    clip: rect(9px, 9999px, 68px, 0);
-    -webkit-transform: skew(0.44deg);
-            transform: skew(0.44deg);
-  }
-  35% {
-    clip: rect(5px, 9999px, 2px, 0);
-    -webkit-transform: skew(0.02deg);
-            transform: skew(0.02deg);
-  }
-  40% {
-    clip: rect(6px, 9999px, 10px, 0);
-    -webkit-transform: skew(0.32deg);
-            transform: skew(0.32deg);
-  }
-  45% {
-    clip: rect(69px, 9999px, 30px, 0);
-    -webkit-transform: skew(0.82deg);
-            transform: skew(0.82deg);
-  }
-  50% {
-    clip: rect(15px, 9999px, 34px, 0);
+    clip: rect(41px, 9999px, 44px, 0);
     -webkit-transform: skew(0.41deg);
             transform: skew(0.41deg);
   }
-  55% {
-    clip: rect(95px, 9999px, 62px, 0);
-    -webkit-transform: skew(0.98deg);
-            transform: skew(0.98deg);
-  }
-  60% {
-    clip: rect(32px, 9999px, 68px, 0);
-    -webkit-transform: skew(0.27deg);
-            transform: skew(0.27deg);
-  }
-  65% {
-    clip: rect(94px, 9999px, 46px, 0);
-    -webkit-transform: skew(0.84deg);
-            transform: skew(0.84deg);
-  }
-  70% {
-    clip: rect(100px, 9999px, 43px, 0);
-    -webkit-transform: skew(0.33deg);
-            transform: skew(0.33deg);
-  }
-  75% {
-    clip: rect(99px, 9999px, 89px, 0);
+  30% {
+    clip: rect(41px, 9999px, 92px, 0);
     -webkit-transform: skew(0.72deg);
             transform: skew(0.72deg);
   }
+  35% {
+    clip: rect(6px, 9999px, 19px, 0);
+    -webkit-transform: skew(0.24deg);
+            transform: skew(0.24deg);
+  }
+  40% {
+    clip: rect(28px, 9999px, 66px, 0);
+    -webkit-transform: skew(0.59deg);
+            transform: skew(0.59deg);
+  }
+  45% {
+    clip: rect(33px, 9999px, 45px, 0);
+    -webkit-transform: skew(0.49deg);
+            transform: skew(0.49deg);
+  }
+  50% {
+    clip: rect(49px, 9999px, 73px, 0);
+    -webkit-transform: skew(0.68deg);
+            transform: skew(0.68deg);
+  }
+  55% {
+    clip: rect(51px, 9999px, 21px, 0);
+    -webkit-transform: skew(0.44deg);
+            transform: skew(0.44deg);
+  }
+  60% {
+    clip: rect(76px, 9999px, 18px, 0);
+    -webkit-transform: skew(0.13deg);
+            transform: skew(0.13deg);
+  }
+  65% {
+    clip: rect(46px, 9999px, 31px, 0);
+    -webkit-transform: skew(0.55deg);
+            transform: skew(0.55deg);
+  }
+  70% {
+    clip: rect(47px, 9999px, 10px, 0);
+    -webkit-transform: skew(0.24deg);
+            transform: skew(0.24deg);
+  }
+  75% {
+    clip: rect(22px, 9999px, 82px, 0);
+    -webkit-transform: skew(0.65deg);
+            transform: skew(0.65deg);
+  }
   80% {
-    clip: rect(13px, 9999px, 49px, 0);
-    -webkit-transform: skew(0.05deg);
-            transform: skew(0.05deg);
+    clip: rect(2px, 9999px, 93px, 0);
+    -webkit-transform: skew(0.99deg);
+            transform: skew(0.99deg);
   }
   85% {
-    clip: rect(7px, 9999px, 10px, 0);
-    -webkit-transform: skew(0.33deg);
-            transform: skew(0.33deg);
+    clip: rect(100px, 9999px, 10px, 0);
+    -webkit-transform: skew(0.52deg);
+            transform: skew(0.52deg);
   }
   90% {
-    clip: rect(34px, 9999px, 11px, 0);
-    -webkit-transform: skew(0.45deg);
-            transform: skew(0.45deg);
+    clip: rect(39px, 9999px, 24px, 0);
+    -webkit-transform: skew(0.04deg);
+            transform: skew(0.04deg);
   }
   95% {
-    clip: rect(30px, 9999px, 37px, 0);
-    -webkit-transform: skew(0.76deg);
-            transform: skew(0.76deg);
+    clip: rect(51px, 9999px, 17px, 0);
+    -webkit-transform: skew(0.01deg);
+            transform: skew(0.01deg);
   }
   100% {
-    clip: rect(3px, 9999px, 46px, 0);
-    -webkit-transform: skew(0.33deg);
-            transform: skew(0.33deg);
+    clip: rect(34px, 9999px, 86px, 0);
+    -webkit-transform: skew(0.1deg);
+            transform: skew(0.1deg);
   }
 }
 
 @keyframes glitch-anim2 {
   0% {
-    clip: rect(38px, 9999px, 99px, 0);
-    -webkit-transform: skew(0.91deg);
-            transform: skew(0.91deg);
+    clip: rect(38px, 9999px, 53px, 0);
+    -webkit-transform: skew(0.57deg);
+            transform: skew(0.57deg);
   }
   5% {
-    clip: rect(51px, 9999px, 22px, 0);
-    -webkit-transform: skew(0.95deg);
-            transform: skew(0.95deg);
+    clip: rect(34px, 9999px, 51px, 0);
+    -webkit-transform: skew(0.55deg);
+            transform: skew(0.55deg);
   }
   10% {
-    clip: rect(94px, 9999px, 20px, 0);
+    clip: rect(34px, 9999px, 13px, 0);
+    -webkit-transform: skew(0.63deg);
+            transform: skew(0.63deg);
+  }
+  15% {
+    clip: rect(74px, 9999px, 28px, 0);
+    -webkit-transform: skew(0.58deg);
+            transform: skew(0.58deg);
+  }
+  20% {
+    clip: rect(98px, 9999px, 37px, 0);
     -webkit-transform: skew(0.76deg);
             transform: skew(0.76deg);
   }
-  15% {
-    clip: rect(94px, 9999px, 96px, 0);
-    -webkit-transform: skew(0.8deg);
-            transform: skew(0.8deg);
-  }
-  20% {
-    clip: rect(72px, 9999px, 92px, 0);
-    -webkit-transform: skew(0.66deg);
-            transform: skew(0.66deg);
-  }
   25% {
-    clip: rect(52px, 9999px, 42px, 0);
-    -webkit-transform: skew(0.79deg);
-            transform: skew(0.79deg);
-  }
-  30% {
-    clip: rect(9px, 9999px, 68px, 0);
-    -webkit-transform: skew(0.44deg);
-            transform: skew(0.44deg);
-  }
-  35% {
-    clip: rect(5px, 9999px, 2px, 0);
-    -webkit-transform: skew(0.02deg);
-            transform: skew(0.02deg);
-  }
-  40% {
-    clip: rect(6px, 9999px, 10px, 0);
-    -webkit-transform: skew(0.32deg);
-            transform: skew(0.32deg);
-  }
-  45% {
-    clip: rect(69px, 9999px, 30px, 0);
-    -webkit-transform: skew(0.82deg);
-            transform: skew(0.82deg);
-  }
-  50% {
-    clip: rect(15px, 9999px, 34px, 0);
+    clip: rect(41px, 9999px, 44px, 0);
     -webkit-transform: skew(0.41deg);
             transform: skew(0.41deg);
   }
-  55% {
-    clip: rect(95px, 9999px, 62px, 0);
-    -webkit-transform: skew(0.98deg);
-            transform: skew(0.98deg);
-  }
-  60% {
-    clip: rect(32px, 9999px, 68px, 0);
-    -webkit-transform: skew(0.27deg);
-            transform: skew(0.27deg);
-  }
-  65% {
-    clip: rect(94px, 9999px, 46px, 0);
-    -webkit-transform: skew(0.84deg);
-            transform: skew(0.84deg);
-  }
-  70% {
-    clip: rect(100px, 9999px, 43px, 0);
-    -webkit-transform: skew(0.33deg);
-            transform: skew(0.33deg);
-  }
-  75% {
-    clip: rect(99px, 9999px, 89px, 0);
+  30% {
+    clip: rect(41px, 9999px, 92px, 0);
     -webkit-transform: skew(0.72deg);
             transform: skew(0.72deg);
   }
+  35% {
+    clip: rect(6px, 9999px, 19px, 0);
+    -webkit-transform: skew(0.24deg);
+            transform: skew(0.24deg);
+  }
+  40% {
+    clip: rect(28px, 9999px, 66px, 0);
+    -webkit-transform: skew(0.59deg);
+            transform: skew(0.59deg);
+  }
+  45% {
+    clip: rect(33px, 9999px, 45px, 0);
+    -webkit-transform: skew(0.49deg);
+            transform: skew(0.49deg);
+  }
+  50% {
+    clip: rect(49px, 9999px, 73px, 0);
+    -webkit-transform: skew(0.68deg);
+            transform: skew(0.68deg);
+  }
+  55% {
+    clip: rect(51px, 9999px, 21px, 0);
+    -webkit-transform: skew(0.44deg);
+            transform: skew(0.44deg);
+  }
+  60% {
+    clip: rect(76px, 9999px, 18px, 0);
+    -webkit-transform: skew(0.13deg);
+            transform: skew(0.13deg);
+  }
+  65% {
+    clip: rect(46px, 9999px, 31px, 0);
+    -webkit-transform: skew(0.55deg);
+            transform: skew(0.55deg);
+  }
+  70% {
+    clip: rect(47px, 9999px, 10px, 0);
+    -webkit-transform: skew(0.24deg);
+            transform: skew(0.24deg);
+  }
+  75% {
+    clip: rect(22px, 9999px, 82px, 0);
+    -webkit-transform: skew(0.65deg);
+            transform: skew(0.65deg);
+  }
   80% {
-    clip: rect(13px, 9999px, 49px, 0);
-    -webkit-transform: skew(0.05deg);
-            transform: skew(0.05deg);
+    clip: rect(2px, 9999px, 93px, 0);
+    -webkit-transform: skew(0.99deg);
+            transform: skew(0.99deg);
   }
   85% {
-    clip: rect(7px, 9999px, 10px, 0);
-    -webkit-transform: skew(0.33deg);
-            transform: skew(0.33deg);
+    clip: rect(100px, 9999px, 10px, 0);
+    -webkit-transform: skew(0.52deg);
+            transform: skew(0.52deg);
   }
   90% {
-    clip: rect(34px, 9999px, 11px, 0);
-    -webkit-transform: skew(0.45deg);
-            transform: skew(0.45deg);
+    clip: rect(39px, 9999px, 24px, 0);
+    -webkit-transform: skew(0.04deg);
+            transform: skew(0.04deg);
   }
   95% {
-    clip: rect(30px, 9999px, 37px, 0);
-    -webkit-transform: skew(0.76deg);
-            transform: skew(0.76deg);
+    clip: rect(51px, 9999px, 17px, 0);
+    -webkit-transform: skew(0.01deg);
+            transform: skew(0.01deg);
   }
   100% {
-    clip: rect(3px, 9999px, 46px, 0);
-    -webkit-transform: skew(0.33deg);
-            transform: skew(0.33deg);
+    clip: rect(34px, 9999px, 86px, 0);
+    -webkit-transform: skew(0.1deg);
+            transform: skew(0.1deg);
   }
 }
 
 @-webkit-keyframes glitch-skew {
   0% {
-    -webkit-transform: skew(-3deg);
-            transform: skew(-3deg);
+    -webkit-transform: skew(2deg);
+            transform: skew(2deg);
   }
   10% {
-    -webkit-transform: skew(2deg);
-            transform: skew(2deg);
-  }
-  20% {
-    -webkit-transform: skew(1deg);
-            transform: skew(1deg);
-  }
-  30% {
-    -webkit-transform: skew(-4deg);
-            transform: skew(-4deg);
-  }
-  40% {
-    -webkit-transform: skew(2deg);
-            transform: skew(2deg);
-  }
-  50% {
-    -webkit-transform: skew(-4deg);
-            transform: skew(-4deg);
-  }
-  60% {
-    -webkit-transform: skew(-3deg);
-            transform: skew(-3deg);
-  }
-  70% {
     -webkit-transform: skew(3deg);
             transform: skew(3deg);
   }
-  80% {
+  20% {
     -webkit-transform: skew(2deg);
             transform: skew(2deg);
+  }
+  30% {
+    -webkit-transform: skew(2deg);
+            transform: skew(2deg);
+  }
+  40% {
+    -webkit-transform: skew(5deg);
+            transform: skew(5deg);
+  }
+  50% {
+    -webkit-transform: skew(-3deg);
+            transform: skew(-3deg);
+  }
+  60% {
+    -webkit-transform: skew(5deg);
+            transform: skew(5deg);
+  }
+  70% {
+    -webkit-transform: skew(-2deg);
+            transform: skew(-2deg);
+  }
+  80% {
+    -webkit-transform: skew(5deg);
+            transform: skew(5deg);
   }
   90% {
-    -webkit-transform: skew(2deg);
-            transform: skew(2deg);
+    -webkit-transform: skew(-1deg);
+            transform: skew(-1deg);
   }
   100% {
-    -webkit-transform: skew(1deg);
-            transform: skew(1deg);
+    -webkit-transform: skew(4deg);
+            transform: skew(4deg);
   }
 }
 
 @keyframes glitch-skew {
   0% {
-    -webkit-transform: skew(-3deg);
-            transform: skew(-3deg);
+    -webkit-transform: skew(2deg);
+            transform: skew(2deg);
   }
   10% {
-    -webkit-transform: skew(2deg);
-            transform: skew(2deg);
-  }
-  20% {
-    -webkit-transform: skew(1deg);
-            transform: skew(1deg);
-  }
-  30% {
-    -webkit-transform: skew(-4deg);
-            transform: skew(-4deg);
-  }
-  40% {
-    -webkit-transform: skew(2deg);
-            transform: skew(2deg);
-  }
-  50% {
-    -webkit-transform: skew(-4deg);
-            transform: skew(-4deg);
-  }
-  60% {
-    -webkit-transform: skew(-3deg);
-            transform: skew(-3deg);
-  }
-  70% {
     -webkit-transform: skew(3deg);
             transform: skew(3deg);
   }
-  80% {
+  20% {
     -webkit-transform: skew(2deg);
             transform: skew(2deg);
+  }
+  30% {
+    -webkit-transform: skew(2deg);
+            transform: skew(2deg);
+  }
+  40% {
+    -webkit-transform: skew(5deg);
+            transform: skew(5deg);
+  }
+  50% {
+    -webkit-transform: skew(-3deg);
+            transform: skew(-3deg);
+  }
+  60% {
+    -webkit-transform: skew(5deg);
+            transform: skew(5deg);
+  }
+  70% {
+    -webkit-transform: skew(-2deg);
+            transform: skew(-2deg);
+  }
+  80% {
+    -webkit-transform: skew(5deg);
+            transform: skew(5deg);
   }
   90% {
-    -webkit-transform: skew(2deg);
-            transform: skew(2deg);
+    -webkit-transform: skew(-1deg);
+            transform: skew(-1deg);
   }
   100% {
-    -webkit-transform: skew(1deg);
-            transform: skew(1deg);
+    -webkit-transform: skew(4deg);
+            transform: skew(4deg);
   }
 }
 
@@ -997,6 +1005,13 @@ section {
   letter-spacing: 0.2rem;
   margin-left: 0.2rem;
   margin-top: 9rem;
+}
+
+@media (max-width: 600px) {
+  .home__main__sub-text {
+    font-size: 1.8rem;
+    margin-top: 4rem;
+  }
 }
 
 .home__main__sub-text p {
@@ -1197,6 +1212,7 @@ section {
   .skills__content__skills-list {
     grid-gap: 6rem 0;
     font-size: 1.2rem;
+    margin-top: 0;
   }
 }
 
@@ -1264,7 +1280,7 @@ h2 {
     letter-spacing: 3rem;
     margin-right: -3rem;
     font-size: 4rem;
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
   }
 }
 
@@ -1273,7 +1289,7 @@ h2 {
     letter-spacing: 3rem;
     margin-right: -3rem;
     font-size: 4rem;
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
   }
 }
 

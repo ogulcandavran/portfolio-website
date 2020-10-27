@@ -175,8 +175,9 @@ section {
   }
   li:not(:first-child) {
     padding-left: 3rem;
-    @include responsive(phone-small){
+    @include responsive(phone-big){
       padding-left: 1rem;
+      letter-spacing: 0.5px;
     }
   }
 
@@ -260,7 +261,7 @@ section {
         border: 1px var(--main-aqua) solid;
         transition: all 0.4s ease;
         @include responsive(phone-big) {
-          width: 30rem;
+          width: 26rem;
           height: 6.5rem;
         }
 
@@ -269,7 +270,8 @@ section {
           height: 2rem;
           margin-left: 12rem;
           @include responsive(phone-big) {
-            margin-left: 4rem;
+            margin-left: 2rem;
+            width: 3rem;
           }
         }
         &__svg-container svg path {
@@ -278,6 +280,9 @@ section {
         p {
           margin-left: 5.5rem;
           letter-spacing: 0.35rem;
+          @include responsive(phone-big) {
+            margin-left: 2.5rem;
+          }
         }
 
         .glitch {
@@ -406,6 +411,10 @@ section {
       letter-spacing: 0.2rem;
       margin-left: 0.2rem;
       margin-top: 9rem;
+      @include responsive(phone-big){
+        font-size: 1.8rem;
+        margin-top: 4rem;
+      }
       p {
         margin-bottom: 1rem;
       }
@@ -547,6 +556,7 @@ section {
       @include responsive(phone-big) {
         grid-gap: 6rem 0;
         font-size: 1.2rem;
+        margin-top: 0;
       }
 
       &--each-pair {
@@ -600,13 +610,13 @@ h2 {
     letter-spacing: 3rem;
     margin-right: -3rem;
     font-size: 4rem;
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
   }
   @include responsive(phone-small) {
     letter-spacing: 3rem;
     margin-right: -3rem;
     font-size: 4rem;
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
   }
 }
 
