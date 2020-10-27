@@ -255,11 +255,17 @@ section {
         color: var(--white);
         border: 1px var(--main-aqua) solid;
         transition: all 0.4s ease;
+        @include responsive(phone-big) {
+          width: 30rem;
+        }
 
         &__svg-container {
           width: 4rem;
           height: 2rem;
           margin-left: 12rem;
+          @include responsive(phone-big) {
+            margin-left: 4rem;
+          }
         }
         &__svg-container svg path {
           transition: 0.6s ease-in-out;
@@ -563,6 +569,12 @@ h2 {
   @include responsive(tablet-small) {
     letter-spacing: 4rem;
     margin-right: -4rem; // letter-spacing last letter bug fix
+  }
+
+  @include responsive(phone-small) {
+    letter-spacing: 3rem;
+    margin-right: -3rem;
+    font-size: 4rem;
   }
 }
 
