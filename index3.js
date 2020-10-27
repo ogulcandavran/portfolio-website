@@ -45,7 +45,7 @@
         density: 0.005,
         frictionAir: 0.05,
         render: {
-          fillStyle: "#66fcf1",
+          fillStyle: "#def2f1",
           strokeStyle: "#66fcf1",
           lineWidth: 1
         }
